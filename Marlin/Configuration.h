@@ -138,7 +138,8 @@
  *
  * :[2400, 9600, 19200, 38400, 57600, 115200, 250000, 500000, 1000000]
  */
-#define BAUDRATE 250000
+// #define BAUDRATE 250000
+#define BAUDRATE 115200
 
 // Enable the Bluetooth serial interface on AT90USB devices
 //#define BLUETOOTH
@@ -632,9 +633,12 @@
   //#define MIN_BED_POWER 0
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
   #if ANY(I3PROW, I3PROA, I3PROC, I3PROX, GTM201, ENDER3)
-    #define  DEFAULT_bedKp 10.00
-    #define  DEFAULT_bedKi .023
-    #define  DEFAULT_bedKd 305.4
+    // #define  DEFAULT_bedKp 10.00
+    // #define  DEFAULT_bedKi .023
+    // #define  DEFAULT_bedKd 305.4
+    #define  DEFAULT_bedKp 690.34
+    #define  DEFAULT_bedKi 111.47
+    #define  DEFAULT_bedKd 1068.83
   #elif ENABLED (I3PROB)
     #define DEFAULT_bedKp 234.88
     #define DEFAULT_bedKi 42.79

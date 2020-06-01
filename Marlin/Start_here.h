@@ -24,7 +24,7 @@
 
 //(Step 1) enable 1 base model/frame
 //GT2560 Boards - vscode: default_envs = mega2560 in platformio.ini
-#define GTA10       // A10 & Variants
+// #define GTA10       // A10 & Variants
 //#define GTA20       // A20 & Variants
 //#define MECREATOR2  // Mecreator2 & Variants     
 //#define I3PROA      // I3ProA & Variants
@@ -40,7 +40,7 @@
 //#define GTD200      // D200 & Variants - testing
 
 //Melzi Boards - vscode: default_envs = melzi in platformio.ini
-//#define ENDER3      // ENDER3 & Variants - testing 
+#define ENDER3      // ENDER3 & Variants - testing 
 
 //----------------------------------------------------------------------------------------------------
 //Based on https://github.com/codiac2600/SKR-MK3s-V1.4-Beta
