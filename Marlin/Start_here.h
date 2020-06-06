@@ -153,7 +153,7 @@
 //Note 1000bytes of ram should remain for system stability.
 
 //Optional features
-//#define PLR              // Enabled power loss resume - Only functions from SDcard
+#define PLR              // Enabled power loss resume - Only functions from SDcard
 //#define RUNOUT           // Enable filament runout sensor - Only If you have them and want to use them
 //#define BEDCLIPS         // Enable to avoid bed clips (manual or probe) - Only If you have them and want to use them
 //#define CASELIGHT        // Enable case light menu if board has led header.
